@@ -1,0 +1,17 @@
+.btn-primary {
+    padding: .5rem 2rem;
+    background-color: $primary-color;
+    border-color: transparent;
+    color: $black;
+    border-radius: 40px;
+    font-size: 1rem;
+}
+
+.btn-secondary {
+    padding: .5rem 2rem;
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+    border-radius: 40px;
+    font-size: 1rem;
+}

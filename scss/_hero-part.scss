@@ -1,0 +1,36 @@
+.text-section {
+    padding-top: 90px;
+    @media screen and (max-width: 767px) {
+        padding-top: 30px;
+    }
+}
+
+.hero-secondary-text {
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.fest-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 150px;
+
+    @media screen and (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    .fest-date {
+        font-style: italic;
+        color: $primary-color;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text-img-1 {
+        width: 200px;
+    }
+    .text-img-2 {
+        height: 31px;
+    }
+}

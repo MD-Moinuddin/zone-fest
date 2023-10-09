@@ -1,0 +1,39 @@
+.hero-part {
+    background-color: #101010;
+    background-image: url('img/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 30px 0;
+
+    @media screen and (max-width: 767px) {
+        padding: 16px 0;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            img {
+                width: 130px;
+            }
+        }
+
+        ul {
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-right: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

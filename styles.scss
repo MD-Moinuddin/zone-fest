@@ -1,0 +1,26 @@
+@import './scss/nav';
+@import './scss/variables';
+@import './scss/buttons';
+@import './scss/typography';
+@import './scss/hero-part';
+@import './scss/about';
+@import './scss/featured-work';
+@import './scss/footer';
+@import './scss/stories';
+
+body {
+    font-family: 'General Sans', sans-serif !important;
+    color: $white;
+}
+
+.section-title {
+    padding-bottom: 24px;
+}
+
+.hide-mobile {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+// Base styles for the navigation bar

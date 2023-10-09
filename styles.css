@@ -1,0 +1,339 @@
+.hero-part {
+  background-color: #101010;
+  background-image: url("img/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  padding: 30px 0;
+}
+@media screen and (max-width: 767px) {
+  header {
+    padding: 16px 0;
+  }
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo img {
+  width: 130px;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 2rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-primary {
+  padding: 0.5rem 2rem;
+  background-color: #59968F;
+  border-color: transparent;
+  color: #101010;
+  border-radius: 40px;
+  font-size: 1rem;
+}
+
+.btn-secondary {
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 40px;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "General Sans", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 86px;
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 26px;
+    line-height: normal;
+  }
+}
+
+h3 {
+  font-size: 56px;
+  font-family: "General Sans", sans-serif !important;
+}
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+
+h4 {
+  font-size: 32px;
+}
+@media screen and (max-width: 767px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+.text-section {
+  padding-top: 90px;
+}
+@media screen and (max-width: 767px) {
+  .text-section {
+    padding-top: 30px;
+  }
+}
+
+.hero-secondary-text {
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.fest-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 150px;
+}
+@media screen and (max-width: 767px) {
+  .fest-info {
+    padding: 30px 0;
+  }
+}
+.fest-info .fest-date {
+  font-style: italic;
+  color: #59968F;
+}
+
+@media screen and (max-width: 767px) {
+  .text-img-1 {
+    width: 200px;
+  }
+  .text-img-2 {
+    height: 31px;
+  }
+}
+.about {
+  background-color: #101010;
+  padding: 40px 0;
+}
+.about .highlight-text {
+  color: #59968F;
+}
+.about .fest-purpose-text-big {
+  width: 480px;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+@media screen and (max-width: 767px) {
+  .about .fest-purpose-text-big {
+    width: 100%;
+  }
+}
+.about .fest-purpose-text-small {
+  padding-top: 70px;
+}
+.about .video-section {
+  position: relative;
+}
+.about .video-section .play-btn {
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #323232;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 767px) {
+  .about .video-section .play-btn {
+    width: 80px;
+    height: 80px;
+  }
+}
+.about .video-section .play-text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  animation: spin 4s linear infinite;
+}
+@media screen and (max-width: 767px) {
+  .about .video-section .play-text {
+    width: 70px;
+    height: 70px;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@media screen and (max-width: 767px) {
+  .about .play-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.featured-work {
+  background-color: #101010;
+  padding: 80px 0 0;
+}
+.featured-work .featured-work-border {
+  border-top: 1px solid #878787;
+  border-bottom: 1px solid #878787;
+}
+.featured-work .featured-work-border .right-border {
+  border-right: 1px solid #878787;
+}
+@media screen and (max-width: 767px) {
+  .featured-work .featured-work-border .right-border {
+    border-right: none;
+  }
+}
+.featured-work .featured-work-border .cube-img {
+  width: 100%;
+  padding: 75px 0;
+}
+@media screen and (max-width: 767px) {
+  .featured-work .featured-work-border .cube-img {
+    padding: 16px 0;
+  }
+}
+.featured-work .featured-work-border .trailers {
+  padding: 30px 0 30px 30px;
+}
+@media screen and (max-width: 767px) {
+  .featured-work .featured-work-border .trailers {
+    padding: 0;
+  }
+}
+.featured-work .featured-work-border .trailers-info {
+  padding-bottom: 20px;
+}
+.featured-work .featured-work-border .trailers-info img {
+  width: 528px;
+  height: 297px;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 767px) {
+  .featured-work .featured-work-border .trailers-info img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.footer {
+  background-color: #101010;
+  padding: 50px 0;
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 20px 0;
+  }
+}
+.footer .footer-tagline {
+  padding-right: 20px;
+  padding-bottom: 16px;
+}
+.footer .gradient-border {
+  padding-bottom: 20px;
+}
+.footer .gradient-border:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -15px;
+  width: 100%;
+  height: 1px; /* Adjust the height to 1px for a thin border */
+  background: linear-gradient(to right, transparent 1%, #fff 14%, #fff 74%, transparent 100%);
+}
+@media screen and (max-width: 767px) {
+  .footer .gradient-border:after {
+    content: none;
+  }
+}
+.footer .footer-logo {
+  width: 130px;
+}
+.footer .social {
+  padding-left: 0;
+}
+.footer .social li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 767px) {
+  .footer .social li {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+  }
+}
+.footer .social li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-right: 4px;
+}
+
+.stories {
+  background-color: #2B2B2B;
+  padding: 80px 0 50px;
+}
+@media screen and (max-width: 767px) {
+  .stories {
+    padding: 20px 0;
+  }
+}
+.stories .grid-img {
+  height: 436px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+
+body {
+  font-family: "General Sans", sans-serif !important;
+  color: #FFFFFF;
+}
+
+.section-title {
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
